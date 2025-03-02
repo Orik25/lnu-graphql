@@ -1,0 +1,59 @@
+# Maven build directories
+**/target/
+**/out/
+
+# IntelliJ IDEA specific files
+**/.idea/
+**/*.iml
+**/*.iws
+**/*.ipr
+
+# OS-specific files
+**/.DS_Store
+**/Thumbs.db
+
+# Maven wrapper files
+**/.mvn/
+
+# Log files
+**/*.log
+
+# Temporary files
+**/*.tmp
+**/*.swp
+**/*.bak
+
+# Eclipse IDE
+**/.project
+**/.classpath
+**/.settings/
+
+# JetBrains project files
+**/.idea/
+**/*.iws
+**/*.iml
+**/*.ipr
+
+# Java class files
+**/*.class
+
+# Maven local repository (to avoid committing dependencies)
+**/repository/
+
+# Ignore test output directories
+**/target/test-classes/
+**/target/classes/
+
+# Ignore IDE-specific files
+**/.idea/.idea_modules/
+**/.idea/.name
+**/.idea/modules.xml
+**/.idea/workspace.xml
+
+# Ignore all folders named .mvn
+**/.mvn/
+
+# Ignore IDE specific files for IntelliJ IDEA and JetBrains
+**/.idea/
+**/*.iws
+**/*.iml
