@@ -1,0 +1,46 @@
+type PublishingDetails {
+    foundedYear: Int!
+    headquarters: String!
+}
+
+type Publisher {
+    name: String!
+    country: String!
+    publishingDetails: PublishingDetails!
+}
+
+type Book {
+    title: String!
+    author: String!
+    year: Int!
+    publisher: Publisher!
+}
+
+input PublishingDetailsInput {
+    foundedYear: Int!
+    headquarters: String!
+}
+
+input PublisherInput {
+    name: String!
+    country: String!
+    publishingDetails: PublishingDetailsInput!
+}
+
+input BookInput {
+    title: String!
+    author: String!
+    year: Int!
+    publisher: PublisherInput!
+}
+
+type Query {
+    allBooks: [Book]
+    bookByTitle(title: String!): Book
+    booksAfterYear(year: Int!): [Book]
+    authorName: String
+}
+
+type Mutation {
+    addBook(input: BookInput!): Book
+}

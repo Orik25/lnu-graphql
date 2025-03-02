@@ -1,0 +1,41 @@
+[
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "year": 1951,
+    "publisher": {
+      "name": "Little, Brown and Company",
+      "country": "USA",
+      "publishingDetails": {
+        "foundedYear": 1837,
+        "headquarters": "New York, USA"
+      }
+    }
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "year": 1960,
+    "publisher": {
+      "name": "J.B. Lippincott & Co.",
+      "country": "USA",
+      "publishingDetails": {
+        "foundedYear": 1836,
+        "headquarters": "Philadelphia, USA"
+      }
+    }
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "year": 1949,
+    "publisher": {
+      "name": "Secker & Warburg",
+      "country": "UK",
+      "publishingDetails": {
+        "foundedYear": 1942,
+        "headquarters": "London, UK"
+      }
+    }
+  }
+]

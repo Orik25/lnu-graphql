@@ -1,0 +1,15 @@
+query {
+    allBooks {
+        title
+        author
+        year
+        publisher {
+            name
+            country
+            publishingDetails {
+                foundedYear
+                headquarters
+            }
+        }
+    }
+}

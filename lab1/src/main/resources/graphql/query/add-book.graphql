@@ -1,0 +1,29 @@
+mutation {
+    addBook(
+        input: {
+            title: "New Book"
+            author: "Some Author"
+            year: 2025
+            publisher: {
+                name: "New Publisher"
+                country: "USA"
+                publishingDetails: {
+                    foundedYear: 2025
+                    headquarters: "San Francisco, USA"
+                }
+            }
+        }
+    ) {
+        title
+        author
+        year
+        publisher {
+            name
+            country
+            publishingDetails {
+                foundedYear
+                headquarters
+            }
+        }
+    }
+}

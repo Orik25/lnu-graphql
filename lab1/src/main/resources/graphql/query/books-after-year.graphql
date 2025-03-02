@@ -1,0 +1,7 @@
+query {
+    booksAfterYear(year: 1950) {
+        title
+        author
+        year
+    }
+}
