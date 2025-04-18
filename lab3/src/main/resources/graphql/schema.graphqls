@@ -1,0 +1,19 @@
+type Parcel {
+    id: ID!
+    trackingNumber: String!
+    recipient: String!
+    status: String!
+    userId: String!
+}
+
+type Mutation {
+    createParcel(trackingNumber: String!, recipient: String!, status: String!, userId: String!): Parcel!
+}
+
+type Subscription {
+    trackUserParcels(userId: String!): Parcel!
+}
+
+type Query {
+    getParcel: String
+}
