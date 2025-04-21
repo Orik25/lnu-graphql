@@ -28,7 +28,7 @@ public class Main {
     private static List<Book> books;
     private static GraphQL graphQL;
 
-    public static void main(String[] args) {
+    public static void main1(String[] args) {
         books = loadDataFromStorage();
         graphQL = createGraphQLEntryPoint(SCHEMA_PATH);
 
